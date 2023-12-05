@@ -1,11 +1,11 @@
-# easy-notion
-Use __easy-notion__ for handy Notion API!<br/>
+# easy-notion-api
+Use __easy-notion-api__ for handy Notion API!<br/>
 Unofficial Python 3 client for Notion API
 
 # English
 ## Installation
 ```
-pip install easy-notion
+pip install easy-notion-api
 ```
 
 ## Before Start

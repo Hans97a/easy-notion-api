@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "easy-notion"
+name = "easy-notion-api"
 version = "0.1.0"
 description = "Unofficial Python API client for Notion"
 authors = ["hans97a <byby8992@naver.com>"]
