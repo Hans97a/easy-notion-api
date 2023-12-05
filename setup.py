@@ -16,14 +16,14 @@ def get_requirements() -> list:
 
 
 setuptools.setup(
-    name="easy-notion",
+    name="easy-notion-api",
     version="0.1.0",
     author="Hans97a",
     author_email="byby8992@naver.com",
     description="Unofficial Python API client for Notion",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Hans97a/easy-notion",
+    url="https://github.com/Hans97a/easy-notion-api",
     install_requires=get_requirements(),
     include_package_data=True,
     packages=setuptools.find_packages(include=["notion", "notion.*"]),

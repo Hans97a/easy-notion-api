@@ -11,6 +11,7 @@ python = "^3.11"
 requests = "^2.31.0"
 wheel = "^0.42.0"
 setuptools = "^69.0.2"
+twine = "^4.0.2"
 
 
 [build-system]
