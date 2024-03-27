@@ -1,7 +1,7 @@
-from exceptions import InvalidData, APIErrorCore
-from database import Database
-from user import User
-from page import Page
+from .exceptions import InvalidData, APIErrorCore
+from .database import Database
+from .user import User
+from .page import Page
 
 import requests
 import json

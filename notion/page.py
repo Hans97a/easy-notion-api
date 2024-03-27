@@ -1,5 +1,5 @@
-from core import NotionAPICore
-from exceptions import APICallLimitExceed, PageNotFound, APIErrorCore
+from .core import NotionAPICore
+from .exceptions import APICallLimitExceed, PageNotFound, APIErrorCore
 
 import requests
 

@@ -1,5 +1,5 @@
-from core import NotionAPICore
-from exceptions import APICallLimitExceed, APIKeyNotFound
+from .core import NotionAPICore
+from .exceptions import APICallLimitExceed, APIKeyNotFound
 
 import requests
 
