@@ -17,7 +17,7 @@ def get_requirements() -> list:
 
 setuptools.setup(
     name="easy-notion-api",
-    version="0.1.1",
+    version="0.1.2",
     author="Hans97a",
     author_email="byby8992@naver.com",
     description="Unofficial Python API client for Notion",
@@ -27,7 +27,7 @@ setuptools.setup(
     install_requires=get_requirements(),
     include_package_data=True,
     packages=setuptools.find_packages(include=["notion", "notion.*"]),
-    python_requires=">=3.8",
+    python_requires=">=3.11",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
