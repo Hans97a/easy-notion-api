@@ -9,10 +9,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 requests = "^2.31.0"
-wheel = "^0.42.0"
-setuptools = "^69.0.2"
-twine = "^4.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+wheel = "^0.43.0"
+setuptools = "^69.5.1"
+twine = "^5.0.0"
 
 [build-system]
 requires = ["poetry-core"]
