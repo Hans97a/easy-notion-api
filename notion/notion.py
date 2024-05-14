@@ -154,6 +154,11 @@ class Notion(Database, User, Page):
                     raise InvalidData(f"The Key {data_key} must be boolean")
                 data_form[data_key] = {col_type: value}
             elif col_type == "date":
-                data_form[data_key] = {col_type: {"start": value[0], "end": value[1]}}
+                if type(value) == list:
+                    data_form[data_key] = {
+                        col_type: {"start": value[0], "end": value[1]}
+                    }
+                else:
+                    data_form[data_key] = {col_type: {"start": value}}
 
         return data_form
